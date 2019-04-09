@@ -18,7 +18,7 @@ It contains the model definition used to classify the labeled session traces.
 
 - ### data_prep_for_composition.py
 
-Use this to create the data for the traffic composition. You need to install the sniffer [OWL](https://git.networks.imdea.org/nicola_bui/imdeaowl) and configure the sniffer output folder. 
+Use this to create the data for the traffic composition. You need to install the sniffer [OWL](https://git.networks.imdea.org/nicola_bui/imdeaowl) (follow carefully the instructions) and configure the sniffer output folder. 
 
 - ### traffic_compositon.py
 
