@@ -8,7 +8,7 @@ LINK to the paper
 
 - ### traffic_classification.py
 
-It performs the supervised traffic classification using the labeled data contained in the file _sessions_df.pkl_, for different session lengths. Use it to obtain the plots shown in Fig.11.
+It performs the supervised traffic classification using the labeled data contained in the file _sessions_df.pkl_, for different session lengths. It produces the accuracy plots shown in Fig.11.
 
 - ### model_init.py
 
@@ -18,7 +18,7 @@ It contains the model definition used to classify the labeled session traces.
 
 - ### data_prep_for_composition.py
 
-Use this to create the data for the traffic composition. You need to install the sniffer [OWL](https://git.networks.imdea.org/nicola_bui/imdeaowl) (follow carefully the instructions) and configure the sniffer output folder. 
+This prepares the data for the traffic composition. You need to install the sniffer [OWL](https://git.networks.imdea.org/nicola_bui/imdeaowl) (follow carefully the instructions) and configure the sniffer output folder. 
 
 - ### traffic_compositon.py
 
