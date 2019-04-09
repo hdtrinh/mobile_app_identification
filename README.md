@@ -22,7 +22,7 @@ Use this to create the data for the traffic composition. You need to install the
 
 - ### traffic_compositon.py
 
-It performs the unsupervised traffic flow decomposition and create the bar plots showed in Fig. 14. Input data is created using _data_prep_for_composition.py_
+It performs the unsupervised traffic flow decomposition and create the bar plots showed in Fig. 14. Input data is created using _data_prep_for_composition.py_. It uses a CNN model (pretrained), contained in _cnn_model.h5_.
 
 - ### util.py
 
